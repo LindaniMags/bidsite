@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { NavSec } from "./components/NavSec";
+import { Sec1 } from "./components/Sec1";
+import { Sec2 } from "./components/Sec2";
+import { Sec3 } from "./components/Sec3";
+import { Sec4 } from "./components/Sec4";
+import { Sec5 } from "./components/Sec5";
+import { Sec6 } from "./components/Sec6";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavSec />
+      <Sec1 />
+      <Sec2 />
+      <Sec3 />
+      <Sec4 />
+      <Sec5 />
+      <Sec6 />
     </div>
   );
 }
 
 export default App;
+/*
+<NavSec />
+<Sec1 />
+<Sec2 />
+<Sec3 />
+<Sec4 />
+<Sec5 />
+*/
