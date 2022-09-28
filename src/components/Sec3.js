@@ -6,45 +6,32 @@ export const Sec3 = () => {
   return (
     <div className="sec3-con">
       <div className="sec3-left">
-        <h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nisi
-          mollitia
-        </h3>
-        <p>
-          necessitatibus quo illo voluptates veniam iusto beatae minus? Suscipit
-          unde ea nisi repellat doloremque.
-        </p>
-        <button className="get-started">start earning</button>
+        <h3>Help yourself to our delightful career courses.</h3>
+
+        <p>Learn new skills and make a career out of them.</p>
+        <button className="get-started">get started</button>
       </div>
       <div className="sec3-right">
         <div className="products">
           <div className="product-con">
             <div className="product">
-              <BsFillExclamationDiamondFill />
-              <p>Product1</p>
+              <p>Web Development</p>
             </div>
-            <p className="earn">earn 154.56</p>
           </div>
           <div className="product-con">
             <div className="product">
-              <BsFillExclamationDiamondFill />
-              <p>Product1</p>
+              <p>Digital Marketing</p>
             </div>
-            <p className="earn">earn 154.56</p>
           </div>
           <div className="product-con">
             <div className="product">
-              <BsFillExclamationDiamondFill />
-              <p>Product1</p>
+              <p>Data Science</p>
             </div>
-            <p className="earn">earn 154.56</p>
           </div>
           <div className="product-con">
             <div className="product">
-              <BsFillExclamationDiamondFill />
-              <p>Product1</p>
+              <p>Mobile App Development</p>
             </div>
-            <p className="earn">earn 154.56</p>
           </div>
         </div>
         <div className="view-more">

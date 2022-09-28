@@ -22,31 +22,6 @@ export function NavSec() {
               <a
                 href="lindanimags.github.io"
                 onMouseOver={() => {
-                  toggleTab(1);
-                }}
-              >
-                Explore
-              </a>
-              <ul
-                className={toggleState === 1 ? "active-list" : " hidden-list"}
-              >
-                <li>
-                  <a href="google.com">nykjhsdhv jsdjsosi</a>
-                </li>
-                <li>
-                  <a href="google.com">nyosi</a>
-                </li>
-                <li>
-                  <a href="google.com">nyosi</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div className="explore">
-              <a
-                href="lindanimags.github.io"
-                onMouseOver={() => {
                   toggleTab(2);
                 }}
               >
@@ -56,13 +31,16 @@ export function NavSec() {
                 className={toggleState === 2 ? "active-list" : " hidden-list"}
               >
                 <li>
-                  <a href="google.com">nykjhsdhv jsdjsosi</a>
+                  <a href="google.com">Mathematics</a>
                 </li>
                 <li>
-                  <a href="google.com">nyosi</a>
+                  <a href="google.com">Physics</a>
                 </li>
                 <li>
-                  <a href="google.com">nyosi</a>
+                  <a href="google.com">Chemistry</a>
+                </li>
+                <li>
+                  <a href="google.com">Biology</a>
                 </li>
               </ul>
             </div>
@@ -75,96 +53,37 @@ export function NavSec() {
                   toggleTab(3);
                 }}
               >
-                Individual
+                Careers
               </a>
               <ul
                 className={toggleState === 3 ? "active-list" : " hidden-list"}
               >
                 <li>
-                  <a href="google.com">nykjhsdhv jsdjsosi</a>
+                  <a href="google.com">Web Development</a>
                 </li>
                 <li>
-                  <a href="google.com">nyosi</a>
+                  <a href="google.com">Digital Marketing</a>
                 </li>
                 <li>
-                  <a href="google.com">nyosi</a>
+                  <a href="google.com">Data Science</a>
+                </li>
+                <li>
+                  <a href="google.com">Mobile Development</a>
+                </li>
+                <li>
+                  <a href="google.com">Photography</a>
                 </li>
               </ul>
             </div>
           </li>
           <li>
             <div className="explore">
-              <a
-                href="lindanimags.github.io"
-                onMouseOver={() => {
-                  toggleTab(4);
-                }}
-              >
-                Businesses
-              </a>
-              <ul
-                className={toggleState === 4 ? "active-list" : " hidden-list"}
-              >
-                <li>
-                  <a href="google.com">nykjhsdhv jsdjsosi</a>
-                </li>
-                <li>
-                  <a href="google.com">nyosi</a>
-                </li>
-                <li>
-                  <a href="google.com">nyosi</a>
-                </li>
-              </ul>
+              <a href="lindanimags.github.io">Resources</a>
             </div>
           </li>
           <li>
             <div className="explore">
-              <a
-                href="lindanimags.github.io"
-                onMouseOver={() => {
-                  toggleTab(5);
-                }}
-              >
-                Developers
-              </a>
-              <ul
-                className={toggleState === 5 ? "active-list" : " hidden-list"}
-              >
-                <li>
-                  <a href="google.com">nykjhsdhv jsdjsosi</a>
-                </li>
-                <li>
-                  <a href="google.com">nyosi</a>
-                </li>
-                <li>
-                  <a href="google.com">nyosi</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div className="explore">
-              <a
-                href="lindanimags.github.io"
-                onMouseOver={() => {
-                  toggleTab(6);
-                }}
-              >
-                Company
-              </a>
-              <ul
-                className={toggleState === 6 ? "active-list" : " hidden-list"}
-              >
-                <li>
-                  <a href="google.com">nykjhsdhv jsdjsosi</a>
-                </li>
-                <li>
-                  <a href="google.com">nyosi</a>
-                </li>
-                <li>
-                  <a href="google.com">nyosi</a>
-                </li>
-              </ul>
+              <a href="lindanimags.github.io">About Us</a>
             </div>
           </li>
         </ul>
