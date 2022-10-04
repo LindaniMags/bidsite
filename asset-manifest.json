@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bidsite/static/css/main.fd31a07b.css",
+    "main.js": "/bidsite/static/js/main.777d580d.js",
+    "static/js/787.46787762.chunk.js": "/bidsite/static/js/787.46787762.chunk.js",
+    "static/media/physics.png": "/bidsite/static/media/physics.a558a7354384a6c8f8da.png",
+    "static/media/dna.png": "/bidsite/static/media/dna.4c48885f850b13170000.png",
+    "static/media/membership.png": "/bidsite/static/media/membership.0107f87e6d01047f5ec9.png",
+    "static/media/grid.png": "/bidsite/static/media/grid.e1b5cb0c75f54255b294.png",
+    "static/media/flask.png": "/bidsite/static/media/flask.c555c1020627d2402a8e.png",
+    "static/media/research.png": "/bidsite/static/media/research.e96a5dead8a4bd3939e1.png",
+    "static/media/maths.png": "/bidsite/static/media/maths.80b3ba68c088d16cea0e.png",
+    "static/media/fatherhood.svg": "/bidsite/static/media/fatherhood.5ec814ddc2f36f087e7130c9806ea6d3.svg",
+    "static/media/teaching.svg": "/bidsite/static/media/teaching.858f900a1295378cb26cf65669d24dd7.svg",
+    "static/media/learning.svg": "/bidsite/static/media/learning.24a6472e3df16d3a9d4c2d0cf15dcabe.svg",
+    "static/media/exams.svg": "/bidsite/static/media/exams.9223da2c0acbce6e00aa2ad00e2ac948.svg",
+    "static/media/education.svg": "/bidsite/static/media/education.6c8c2e95d0fa82585db084ef6d2bd90f.svg",
+    "static/media/logo.svg": "/bidsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bidsite/index.html",
+    "main.fd31a07b.css.map": "/bidsite/static/css/main.fd31a07b.css.map",
+    "main.777d580d.js.map": "/bidsite/static/js/main.777d580d.js.map",
+    "787.46787762.chunk.js.map": "/bidsite/static/js/787.46787762.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd31a07b.css",
+    "static/js/main.777d580d.js"
+  ]
+}
