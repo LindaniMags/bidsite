@@ -2,6 +2,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+a {
+  color: black;
+}
+ul {
+  padding: 0;
+}
 /*NavSec*/
 
 .navsec-con {
@@ -9,11 +16,46 @@
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 0 2.9px 7.8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5vw;
+}
+.log-in {
+  display: none;
 }
 .navsec-con a {
   font-weight: 500;
   display: flex;
   justify-content: center;
+}
+.nav-on {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2.9px 7.8px rgba(0, 0, 0, 0.1);
+  padding-right: 50px;
+  margin-top: 8.2px;
+}
+.nav-on li {
+  display: flex;
+  padding-bottom: 12px;
+}
+.nav-on ul {
+  padding: 0;
+}
+.nav-off {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+.menu {
+  display: none;
+}
+.log-in {
+  color: rgb(149 147 147);
 }
 .navsec-con a :hover {
   color: rgb(241, 93, 46);
@@ -54,6 +96,9 @@
   flex-direction: column;
   align-items: center;
 }
+.explore a:hover {
+  color: rgb(241, 93, 46);
+}
 a {
   text-decoration: none;
 }
@@ -76,10 +121,13 @@ a {
 
 /*sec1-left*/
 
+/*
 .sec1-con {
-  margin: 50px 0;
+  margin-top: 8vh;
 }
 
+
+*/
 .hero {
   display: flex;
   margin-bottom: 20px;
@@ -89,11 +137,14 @@ a {
   width: 50vw;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  padding: 4em;
+  /* padding: 4em; */
   gap: 13px;
+  padding-top: 0;
   padding-right: 0;
+  padding-left: 8vw;
+  text-align: center;
 }
 .profile {
   display: flex;
@@ -120,26 +171,13 @@ a {
   width: 50vw;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
-.circle {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .circle img {
   width: 40vw;
 }
-.rectangle {
-  width: 150px;
-  height: 310px;
 
-  border-radius: 15px;
-}
 .adspace {
   display: flex;
 }
@@ -336,7 +374,7 @@ transition: box-shadow 500ms ease 0s, opacity 500ms ease 0s, z-index 0ms ease-ou
   background-color: rgb(230, 230, 230);
 }
 .join img {
-  width: 60px;
+  width: 6vh;
 }
 .object {
   display: flex;
@@ -380,7 +418,7 @@ transition: box-shadow 500ms ease 0s, opacity 500ms ease 0s, z-index 0ms ease-ou
   gap: 20px;
 }
 .ad-item img {
-  width: 90px;
+  width: 12vw;
 }
 hr {
   width: 11vw;
@@ -393,13 +431,22 @@ hr {
 
   justify-content: space-evenly;
   background-color: rgb(230, 230, 230);
-  transform: translateY(150px);
   padding: 50px 0;
+  margin-top: 50px;
+}
+.footer-items {
+  display: flex;
+  gap: 10vw;
+}
+.items-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footer-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   justify-content: center;
 }
 .socials {
@@ -422,13 +469,52 @@ hr {
   align-items: center;
   justify-content: center;
 }
+.bahai {
+  display: none;
+}
 
 /*media querries*/
 
-@media (max-width: 1024px) {
+/*
+@media (max-width: 1440px) {
+  .sec1-con {
+    margin-top: 12vh;
+  }
 }
+*/
 
 @media (max-width: 768px) {
+  /*navsec*/
+  .navsec-con {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .nav-on {
+    display: flex;
+  }
+  .logs {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .log-in {
+    display: block;
+  }
+
+  /*sec1*/
+
+  /* .sec1-con {
+    margin-top: 0;
+  }
+  */
+
   /*sec3*/
 
   .sec3-con {
@@ -469,7 +555,6 @@ hr {
     justify-content: center;
     padding: 10px;
     gap: 13px;
-    padding-right: 0;
     text-align: center;
   }
   .sec1-right {
@@ -486,6 +571,33 @@ hr {
   }
   .product-con {
     padding: 15px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer-items {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bahai {
+    display: block;
+  }
+  .footer-item {
+    text-align: center;
+  }
+  .items-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 

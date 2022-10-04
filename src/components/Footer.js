@@ -20,24 +20,31 @@ export function Footer() {
           </a>
         </div>
       </div>
-      <div className="footer-item">
-        <div>
-          <FaBahai />
+      <div className="footer-items">
+        <div className="items-con">
+          <div className="bahai">
+            <FaBahai />
+          </div>
+          <div className="footer-item">
+            <a href="lindanimag.github.io">Visit Us</a>
+            <a href="lindanimag.github.io">Learn</a>
+            <a href="lindanimag.github.io">Careers</a>
+            <a href="lindanimag.github.io">Teachers</a>
+          </div>
         </div>
-        <a href="lindanimag.github.io">About</a>
-        <a href="lindanimag.github.io">About</a>
-        <a href="lindanimag.github.io">About</a>
-        <a href="lindanimag.github.io">About</a>
-      </div>
-      <div className="footer-item">
-        <div>
-          <FaBahai />
+
+        <div className="items-con">
+          <div>
+            <FaBahai className="bahai" />
+          </div>
+          <div className="footer-item">
+            <a href="lindanimag.github.io">Help Center</a>
+            <a href="lindanimag.github.io">Legal & privacy </a>
+            <a href="lindanimag.github.io">Cookie policy</a>
+          </div>
         </div>
-        <a href="lindanimag.github.io">About</a>
-        <a href="lindanimag.github.io">About</a>
-        <a href="lindanimag.github.io">About</a>
-        <a href="lindanimag.github.io">About</a>
       </div>
+
       <div className="footer-banner">
         <h3 className="bidders">LEARN</h3>
         <p>KNOWLEDGE POWER</p>
